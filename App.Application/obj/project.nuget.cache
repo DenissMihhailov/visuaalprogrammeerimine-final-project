@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OqRhYYKCJ34=",
+  "dgSpecHash": "UL27jkjGbhk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\App.Application.csproj",
+  "projectFilePath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\App.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krasa\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\krasa\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

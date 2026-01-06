@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\krasa\source\repos\RhythmMachine\RhythmMachineUI\obj\Debug\net8.0-windows\
+C:\Users\krasa\source\repos\visuaalprogrammeerimine-final-project\RhythmMachineUI\obj\Debug\net8.0-windows\
 RhythmMachineUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\krasa\source\repos\RhythmMachine\RhythmMachineUI\App.xaml
+C:\Users\krasa\source\repos\visuaalprogrammeerimine-final-project\RhythmMachineUI\App.xaml
 2787859397
-231139314091
+27796094530
 10-1827522315
-254-111848364
+254-1465834975
 MainWindow.xaml;NameDialog.xaml;
 
 False

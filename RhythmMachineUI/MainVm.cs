@@ -4,6 +4,7 @@ using App.Domain.Entities.Patterns;
 using App.Domain.Entities.Sounds;
 using App.Domain.Enums;
 using App.Infrastructure.Audio;
+using App.Infrastructure.Export;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -15,6 +16,8 @@ public sealed class MainVm : INotifyPropertyChanged
 {
     private readonly SequencerService _svc;
     private readonly IAudioEngine _audio;
+    private readonly CsvExporter _csv;
+
 
     private const int MinBpm = 40;
     private const int MaxBpm = 240;
@@ -50,6 +53,8 @@ public sealed class MainVm : INotifyPropertyChanged
     public ICommand SetBpmCommand { get; }
     public ICommand PlayCommand { get; }
     public ICommand StopCommand { get; }
+    public ICommand ExportPatternCsvCommand { get; }
+
 
     private ComboItemVm<Pattern>? _selectedPattern;
     public ComboItemVm<Pattern>? SelectedPattern
@@ -111,10 +116,11 @@ public sealed class MainVm : INotifyPropertyChanged
     private CancellationTokenSource? _playheadCts;
 
 
-    public MainVm(SequencerService svc, IAudioEngine audio)
+    public MainVm(SequencerService svc, IAudioEngine audio, CsvExporter csv)
     {
         _svc = svc;
         _audio = audio;
+        _csv = csv;
 
         ToggleCommand = new RelayCommand<StepCellVm>(async cell => await ToggleAsync(cell));
         SavePatternAsCommand = new RelayCommand(async () => await SavePatternAsAsync());
@@ -123,6 +129,8 @@ public sealed class MainVm : INotifyPropertyChanged
         DeleteKitCommand = new RelayCommand(async () => await DeleteKitAsync());
         SetBpmCommand = new RelayCommand(async () => await SetBpmAsync());
         PlayCommand = new RelayCommand(async () => await PlayAsync());
+        ExportPatternCsvCommand = new RelayCommand(async () => await ExportPatternCsvAsync());
+
 
         StopCommand = new RelayCommand(() =>
         {
@@ -153,12 +161,13 @@ public sealed class MainVm : INotifyPropertyChanged
         await ReloadPatternsAsync();
         await ReloadKitsAsync();
 
-      
-        _selectedPattern = Patterns.FirstOrDefault();
+
+        _selectedPattern = Patterns.LastOrDefault(p => !p.IsDraft);
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedPattern)));
 
-        _selectedKit = Kits.FirstOrDefault();
+        _selectedKit = Kits.LastOrDefault(k => !k.IsDraft);
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SelectedKit)));
+
 
         _initing = false;
 
@@ -267,6 +276,14 @@ public sealed class MainVm : INotifyPropertyChanged
         }
 
         await LoadKitAsync();
+
+        if (IsPlaying)
+        {
+            _svc.Stop();
+            _dbPlaying = false;
+            await StartPreviewFromUiAsync();
+        }
+
     }
 
     private async Task LoadKitAsync()
@@ -293,22 +310,26 @@ public sealed class MainVm : INotifyPropertyChanged
 
         EnsurePatternDraft();
 
-        var row = Rows.First(r => r.Role == cell.Role);
-
-        if (cell.IsOn && row.SelectedSound is not null)
-            _audio.Play(row.SelectedSound);
+        if (!IsPlaying)
+        {
+            var row = Rows.First(r => r.Role == cell.Role);
+            var snd = row.SelectedSound;
+            if (snd is not null)
+                _audio.Play(snd);
+        }
 
         await Task.CompletedTask;
     }
 
+
     private void StartPlayhead()
     {
+        var bpm = GetBpmOrRevert(showDialog: false);
+
+
         _playheadCts?.Cancel();
         _playheadCts = new CancellationTokenSource();
         var token = _playheadCts.Token;
-
-        if (!TryGetValidBpm(out var bpm, showDialog: false))
-            bpm = _lastGoodBpm;
 
         var stepsCount = Rows.FirstOrDefault()?.Steps.Count ?? 16;
         var stepMs = TimeSpan.FromMilliseconds(60000.0 / bpm / 4.0);
@@ -338,6 +359,7 @@ public sealed class MainVm : INotifyPropertyChanged
     }
 
 
+
     private async Task SetBpmAsync()
     {
         if (!TryGetValidBpm(out var bpm, showDialog: true))
@@ -352,6 +374,54 @@ public sealed class MainVm : INotifyPropertyChanged
 
         await Task.CompletedTask;
     }
+
+    private bool ValidateName(string name, IEnumerable<string> existingNames, string entityTitle)
+    {
+        name = (name ?? "").Trim();
+
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            System.Windows.MessageBox.Show(
+                $"{entityTitle} name cannot be empty.",
+                "Invalid name",
+                System.Windows.MessageBoxButton.OK,
+                System.Windows.MessageBoxImage.Warning);
+            return false;
+        }
+
+        if (name.Length < 2)
+        {
+            System.Windows.MessageBox.Show(
+                $"{entityTitle} name is too short.",
+                "Invalid name",
+                System.Windows.MessageBoxButton.OK,
+                System.Windows.MessageBoxImage.Warning);
+            return false;
+        }
+
+        if (!name.Any(char.IsLetterOrDigit))
+        {
+            System.Windows.MessageBox.Show(
+                $"{entityTitle} name must contain letters or digits.",
+                "Invalid name",
+                System.Windows.MessageBoxButton.OK,
+                System.Windows.MessageBoxImage.Warning);
+            return false;
+        }
+
+        if (existingNames.Any(x => string.Equals(x?.Trim(), name, StringComparison.OrdinalIgnoreCase)))
+        {
+            System.Windows.MessageBox.Show(
+                $"{entityTitle} with this name already exists.",
+                "Duplicate name",
+                System.Windows.MessageBoxButton.OK,
+                System.Windows.MessageBoxImage.Warning);
+            return false;
+        }
+
+        return true;
+    }
+
 
     private bool TryGetValidBpm(out int bpm, bool showDialog)
     {
@@ -385,42 +455,95 @@ public sealed class MainVm : INotifyPropertyChanged
     }
 
 
+    private async Task ExportPatternCsvAsync()
+    {
+        if (SelectedPattern is null) return;
+
+        if (SelectedPattern.IsDraft)
+        {
+            var res = System.Windows.MessageBox.Show(
+                "Pattern is not saved. Export current draft?",
+                "Export CSV",
+                System.Windows.MessageBoxButton.YesNo,
+                System.Windows.MessageBoxImage.Question);
+
+            if (res != System.Windows.MessageBoxResult.Yes)
+                return;
+        }
+
+        var bpm = int.TryParse(BpmText, out var b) ? b : _lastGoodBpm;
+
+        var map = new Dictionary<TrackRole, bool[]>();
+        foreach (var row in Rows)
+        {
+            var arr = new bool[row.Steps.Count];
+            for (int i = 0; i < row.Steps.Count; i++)
+                arr[i] = row.Steps[i].IsOn;
+
+            map[row.Role] = arr;
+        }
+
+        var stepsCount = Rows.FirstOrDefault()?.Steps.Count ?? 16;
+
+        var desktop = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+        var safeName = MakeSafeFileName(SelectedPattern.DisplayName);
+        var filePath = System.IO.Path.Combine(desktop, $"{safeName}.csv");
+
+        _csv.ExportPattern(filePath, bpm, stepsCount, map);
+
+        System.Windows.MessageBox.Show(
+            $"Saved to Desktop:\n{filePath}",
+            "Export CSV",
+            System.Windows.MessageBoxButton.OK,
+            System.Windows.MessageBoxImage.Information);
+
+        await Task.CompletedTask;
+    }
+
+    private static string MakeSafeFileName(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name)) return "pattern";
+        foreach (var c in System.IO.Path.GetInvalidFileNameChars())
+            name = name.Replace(c, '_');
+        return name.Trim();
+    }
+
 
     private async Task PlayAsync()
     {
+        System.Windows.Input.Keyboard.ClearFocus();
+
         if (SelectedPattern is null || SelectedKit is null) return;
 
         IsPlaying = true;
 
-        if (IsPatternDraft || IsKitDraft)
+        _svc.Stop();
+        _dbPlaying = false;
+
+        await StartPreviewFromUiAsync();
+    }
+
+    private int GetBpmOrRevert(bool showDialog)
+    {
+        if (TryGetValidBpm(out var bpm, showDialog))
         {
-            _svc.Stop();
-            _dbPlaying = false;
-            await StartPreviewFromUiAsync();
-            return;
+            _lastGoodBpm = bpm;
+            return bpm;
         }
 
-        StartPlayhead();
-
-        _previewCts?.Cancel();
-        _previewCts = null;
-
-        await _svc.StartPatternAsync(SelectedPattern.Model!.Id, SelectedKit.Model!.Id);
-        _dbPlaying = true;
-
+        BpmText = _lastGoodBpm.ToString();
+        return _lastGoodBpm;
     }
+
 
     private async Task StartPreviewFromUiAsync()
     {
+        var bpm = GetBpmOrRevert(showDialog: true);
+
         _previewCts?.Cancel();
         _previewCts = new CancellationTokenSource();
         var token = _previewCts.Token;
 
-        if (!TryGetValidBpm(out var bpm, showDialog: true))
-        {
-            BpmText = _lastGoodBpm.ToString();
-            return;
-        }
 
         var stepsCount = Rows.FirstOrDefault()?.Steps.Count ?? 16;
 
@@ -468,10 +591,19 @@ public sealed class MainVm : INotifyPropertyChanged
         dlg.Owner = System.Windows.Application.Current.MainWindow;
         if (dlg.ShowDialog() != true) return;
 
+        var name = dlg.Name.Trim();
+
+        if (!ValidateName(
+                name,
+                Patterns.Where(x => !x.IsDraft).Select(x => x.DisplayName),
+                "Pattern"))
+            return;
+
+
         var bpm = int.TryParse(BpmText, out var b) ? b : 128;
         var code = $"PAT-{DateTime.UtcNow:MMdd-HHmm}";
 
-        var newId = await _svc.CreatePatternWithEmptyStepsAsync(code, dlg.Name, 16, bpm);
+        var newId = await _svc.CreatePatternWithEmptyStepsAsync(code, name, 16, bpm);
 
         var map = new Dictionary<TrackRole, bool[]>();
         foreach (var row in Rows)
@@ -497,7 +629,15 @@ public sealed class MainVm : INotifyPropertyChanged
         dlg.Owner = System.Windows.Application.Current.MainWindow;
         if (dlg.ShowDialog() != true) return;
 
-        var newId = await _svc.CreateKitAsync(dlg.Name);
+        var name = dlg.Name.Trim();
+
+        if (!ValidateName(
+                name,
+                Kits.Where(x => !x.IsDraft).Select(x => x.DisplayName),
+                "Kit"))
+            return;
+
+        var newId = await _svc.CreateKitAsync(name);
 
         var map = new Dictionary<TrackRole, Guid>();
         foreach (var row in Rows)

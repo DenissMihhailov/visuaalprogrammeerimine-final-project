@@ -67,12 +67,38 @@ public sealed class AppDbContext : DbContext
     {
         var now = new DateTime(2026, 1, 1);
 
-        var pId = Guid.Parse("bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb");
+        var rockId = Guid.Parse("00000000-0000-0000-0000-000000000003");
+        var emptyId = Guid.Parse("00000000-0000-0000-0000-000000000002");
+        var trapId = Guid.Parse("00000000-0000-0000-0000-000000000001");
+
+
         b.Entity<Pattern>().HasData(new
         {
-            Id = pId,
-            Code = "HOUSE-001",
-            Name = "House Basic",
+            Id = rockId,
+            Code = "AROCK-001",
+            Name = "Rock basic",
+            StepsCount = 16,
+            Bpm = 75,
+            Status = PatternStatus.Ready,
+            CreatedAt = now
+        });
+
+        b.Entity<Pattern>().HasData(new
+        {
+            Id = emptyId,
+            Code = "EMPTY-001",
+            Name = "Empty",
+            StepsCount = 16,
+            Bpm = 120,
+            Status = PatternStatus.Draft,
+            CreatedAt = now
+        });
+
+        b.Entity<Pattern>().HasData(new
+        {
+            Id = trapId,
+            Code = "TRAP-DETROIT",
+            Name = "Detroit Trap",
             StepsCount = 16,
             Bpm = 128,
             Status = PatternStatus.Ready,
@@ -86,17 +112,46 @@ public sealed class AppDbContext : DbContext
             {
                 var on = role switch
                 {
-                    TrackRole.Kick => i is 0 or 4 or 8 or 12,
+                    TrackRole.Kick => i is 0 or 3 or 10 or 12,
                     TrackRole.Snare => i is 4 or 12,
-                    TrackRole.HatClosed => i is 2 or 6 or 10 or 14,
-                    TrackRole.HatOpen => i is 14,
+                    TrackRole.HatClosed => i is 0 or 2 or 4 or 6 or 8 or 10 or 15,
+                    TrackRole.HatOpen => i is 12 or 14,
+                    TrackRole.Perc => i is 0 or 8,
+                    TrackRole.Crash => i is 0,
                     _ => false
                 };
 
-                steps.Add(new { Id = Guid.NewGuid(), PatternId = pId, Role = role, StepIndex = i, IsOn = on });
+                steps.Add(new { Id = Guid.NewGuid(), PatternId = rockId, Role = role, StepIndex = i, IsOn = on });
+            }
+        }
+
+        foreach (var role in Enum.GetValues<TrackRole>())
+        {
+            for (int i = 0; i < 16; i++)
+            {
+                steps.Add(new { Id = Guid.NewGuid(), PatternId = emptyId, Role = role, StepIndex = i, IsOn = false });
+            }
+        }
+
+        foreach (var role in Enum.GetValues<TrackRole>())
+        {
+            for (int i = 0; i < 16; i++)
+            {
+                var on = role switch
+                {
+                    TrackRole.Kick => i is 0 or 8 or 13,
+                    TrackRole.Snare => i is 4 or 9 or 12,
+                    TrackRole.HatClosed => i is 0 or 2 or 4 or 6 or 8 or 9 or 10 or 12 or 14 or 15,
+                    TrackRole.Perc => i is 14,
+                    TrackRole.Crash => i is 0,
+                    _ => false
+                };
+
+                steps.Add(new { Id = Guid.NewGuid(), PatternId = trapId, Role = role, StepIndex = i, IsOn = on });
             }
         }
 
         b.Entity<PatternStep>().HasData(steps.ToArray());
     }
+
 }

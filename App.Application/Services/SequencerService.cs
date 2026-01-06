@@ -222,7 +222,4 @@ public sealed class SequencerService
         _cts = null;
     }
 
-
-    public Task ExportPatternCsvAsync(Guid patternId, string filePath) =>
-        _csv.ExportPatternAsync(patternId, filePath);
 }

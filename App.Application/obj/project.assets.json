@@ -1659,11 +1659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\App.Application.csproj",
+      "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\App.Application.csproj",
       "projectName": "App.Application",
-      "projectPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\App.Application.csproj",
+      "projectPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\App.Application.csproj",
       "packagesPath": "C:\\Users\\krasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\obj\\",
+      "outputPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\krasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1680,11 +1680,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj": {
-              "projectPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj"
+            "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj": {
+              "projectPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj"
             },
-            "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\App.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\App.Infrastructure.csproj"
+            "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\App.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\App.Infrastructure.csproj"
             }
           }
         }

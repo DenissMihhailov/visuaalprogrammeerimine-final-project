@@ -12,9 +12,13 @@ public sealed class StepPlayheadBrushConverter : IMultiValueConverter
 
     public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
     {
-        if (values.Length < 2) return Normal;
+        if (values.Length < 3) return Normal;
         if (values[0] is not int stepIndex) return Normal;
         if (values[1] is not int currentStep) return Normal;
+        if (values[2] is not bool isPlaying) return Normal;
+
+        if (!isPlaying)
+            return Normal;
 
         return stepIndex == currentStep ? Current : Normal;
     }

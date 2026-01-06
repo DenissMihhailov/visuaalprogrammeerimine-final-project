@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\App.Infrastructure.csproj": {}
+    "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\App.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj": {
+    "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj",
+        "projectPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj",
         "packagesPath": "C:\\Users\\krasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\obj\\",
+        "outputPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\krasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\App.Infrastructure.csproj": {
+    "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\App.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\App.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\App.Infrastructure.csproj",
         "projectName": "App.Infrastructure",
-        "projectPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\App.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\App.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\krasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\krasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj": {
-                "projectPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj"
+              "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj": {
+                "projectPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj"
               }
             }
           }

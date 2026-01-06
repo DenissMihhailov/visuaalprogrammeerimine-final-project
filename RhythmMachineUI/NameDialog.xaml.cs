@@ -25,7 +25,7 @@ public partial class NameDialog : Window
         }
 
         Name = text;
-        DialogResult = true; // закроет окно
+        DialogResult = true;
     }
 
 

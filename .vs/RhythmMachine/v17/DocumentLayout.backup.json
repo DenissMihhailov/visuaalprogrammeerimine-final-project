@@ -1,153 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\",
+  "WorkspaceRootPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\stepplayheadbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\stepplayheadbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\comboitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\comboitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.application\\services\\sequencerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|solutionrelative:app.application\\services\\sequencerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\entities\\patterns\\pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\patterns\\pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\namedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\namedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\namedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\namedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\entities\\kits\\kitslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\kits\\kitslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\entities\\patterns\\patternstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\patterns\\patternstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.infrastructure\\data\\builtinsoundimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.infrastructure\\data\\builtinsoundimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\data\\builtinsoundimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.infrastructure\\audio\\naudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\audio\\naudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.application\\services\\sequencerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|solutionrelative:app.application\\services\\sequencerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.infrastructure\\audio\\iaudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\audio\\iaudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\entities\\sounds\\soundbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\sounds\\soundbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\rhythmmachineui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\rhythmmachineui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\entities\\sounds\\usersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\sounds\\usersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\entities\\sounds\\builtinsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\entities\\sounds\\builtinsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\sounds\\builtinsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\entities\\kits\\kit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.application\\app.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|solutionrelative:app.application\\app.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.infrastructure\\audio\\iaudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\audio\\iaudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\entities\\kits\\kit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\kits\\kit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\rhythmmachineui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\entities\\kits\\kitslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\kits\\kitslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\entities\\patterns\\patternstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\patterns\\patternstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\entities\\patterns\\pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\patterns\\pattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\entities\\sounds\\usersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\sounds\\usersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\entities\\sounds\\soundbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\sounds\\soundbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\enums\\patternstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\enums\\patternstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\enums\\trackrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\enums\\trackrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.infrastructure\\audio\\naudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\audio\\naudioengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.infrastructure\\export\\csvexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\export\\csvexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\comboitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\comboitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\app.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\namedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\namedialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\namedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\namedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\stepplayheadbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\stepplayheadbrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\rhythmmachineui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C9CA2C4-F16F-4480-B126-2C3EB2AF618E}|RhythmMachineUI\\RhythmMachineUI.csproj|solutionrelative:rhythmmachineui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\app.domain\\app.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\app.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.application\\app.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6BD45197-F4E6-435A-A339-C7709FBD7B2D}|App.Application\\App.Application.csproj|solutionrelative:app.application\\app.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.infrastructure\\export\\csvexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D14EF9D5-4FF9-4E52-A4D5-C97DD2D11751}|App.Infrastructure\\App.Infrastructure.csproj|solutionrelative:app.infrastructure\\export\\csvexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\enums\\patternstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\enums\\patternstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|c:\\users\\krasa\\source\\repos\\rhythmmachine\\app.domain\\enums\\trackrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F49D789E-962F-4893-9614-EDBB90F5C631}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\enums\\trackrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RhythmMachine\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RhythmMachine\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RhythmMachine\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RhythmMachine\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RhythmMachine\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -157,105 +146,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\MainWindow.xaml*",
-              "RelativeToolTip": "RhythmMachineUI\\MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-05T05:32:34.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BuiltInSound.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:21:16.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "SequencerService.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\Services\\SequencerService.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\Services\\SequencerService.cs",
               "RelativeDocumentMoniker": "App.Application\\Services\\SequencerService.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\Services\\SequencerService.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\Services\\SequencerService.cs",
               "RelativeToolTip": "App.Application\\Services\\SequencerService.cs",
-              "ViewState": "AgIAAHkAAAD8/////58wwI4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAOEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T15:40:10.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NameDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\NameDialog.xaml",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\NameDialog.xaml",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\NameDialog.xaml",
-              "RelativeToolTip": "RhythmMachineUI\\NameDialog.xaml",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\MainWindow.xaml",
+              "RelativeToolTip": "RhythmMachineUI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-04T20:07:59.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T05:32:34.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PatternStep.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Patterns\\PatternStep.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Patterns\\PatternStep.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Patterns\\PatternStep.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Patterns\\PatternStep.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "IAudioEngine.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Audio\\IAudioEngine.cs",
+              "RelativeDocumentMoniker": "App.Infrastructure\\Audio\\IAudioEngine.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Audio\\IAudioEngine.cs",
+              "RelativeToolTip": "App.Infrastructure\\Audio\\IAudioEngine.cs",
+              "ViewState": "AgIAAAAAAACgMTMzMzPbvwwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:27:06.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-02T15:34:39.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Pattern.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Patterns\\Pattern.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Patterns\\Pattern.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Patterns\\Pattern.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Patterns\\Pattern.cs",
-              "ViewState": "AgIAABEAAAAwMzMzM9MxwEIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "PatternStatus.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Enums\\PatternStatus.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Enums\\PatternStatus.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Enums\\PatternStatus.cs",
+              "RelativeToolTip": "App.Domain\\Enums\\PatternStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:27:25.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-02T15:19:06.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ComboItemVm.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\ComboItemVm.cs",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\ComboItemVm.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\ComboItemVm.cs",
-              "RelativeToolTip": "RhythmMachineUI\\ComboItemVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "TrackRole.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Enums\\TrackRole.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Enums\\TrackRole.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Enums\\TrackRole.cs",
+              "RelativeToolTip": "App.Domain\\Enums\\TrackRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T00:53:15.189Z",
+              "WhenOpened": "2026-01-02T15:18:25.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NaudioEngine.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Audio\\NaudioEngine.cs",
+              "RelativeDocumentMoniker": "App.Infrastructure\\Audio\\NaudioEngine.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Audio\\NaudioEngine.cs",
+              "RelativeToolTip": "App.Infrastructure\\Audio\\NaudioEngine.cs",
+              "ViewState": "AgIAAAgAAACAbmZmZmb0vwIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:34:55.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BuiltInSoundImporter.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
+              "RelativeDocumentMoniker": "App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
+              "RelativeToolTip": "App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T22:11:10.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainVm.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\MainVm.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\MainVm.cs",
               "RelativeDocumentMoniker": "RhythmMachineUI\\MainVm.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\MainVm.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\MainVm.cs",
               "RelativeToolTip": "RhythmMachineUI\\MainVm.cs",
-              "ViewState": "AgIAAJgCAAAAAAAAAAAkwLkCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPoCAAAACAAAAMAwwF8CAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-04T20:12:41.784Z",
               "EditorCaption": ""
@@ -263,178 +249,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StepPlayheadBrushConverter.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\StepPlayheadBrushConverter.cs",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\StepPlayheadBrushConverter.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\StepPlayheadBrushConverter.cs",
-              "RelativeToolTip": "RhythmMachineUI\\StepPlayheadBrushConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T04:59:28.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "RhythmMachineUI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T17:28:11.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\App.xaml.cs",
-              "RelativeToolTip": "RhythmMachineUI\\App.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAcGZmZmbGvzYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T17:57:15.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KitSlot.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Kits\\KitSlot.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Kits\\KitSlot.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Kits\\KitSlot.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Kits\\KitSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:24:11.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "App.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "App.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAADAzczMzGw6wGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAnJmZmZkKwE8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T15:32:14.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NameDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\NameDialog.xaml.cs",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\NameDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\NameDialog.xaml.cs",
-              "RelativeToolTip": "RhythmMachineUI\\NameDialog.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAZWZmZmb0vx0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\App.xaml.cs",
+              "RelativeToolTip": "RhythmMachineUI\\App.xaml.cs",
+              "ViewState": "AgIAAFUAAABwMzMzM7MpwGgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T20:09:18.398Z",
+              "WhenOpened": "2026-01-02T17:57:15.433Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\App.Application.csproj",
+              "RelativeDocumentMoniker": "App.Application\\App.Application.csproj",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Application\\App.Application.csproj",
+              "RelativeToolTip": "App.Application\\App.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-02T15:41:17.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Kit.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Kits\\Kit.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Kits\\Kit.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Kits\\Kit.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Kits\\Kit.cs",
+              "ViewState": "AgIAAA0AAAAA9v/////5vwoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:24:27.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KitSlot.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Kits\\KitSlot.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Kits\\KitSlot.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Kits\\KitSlot.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Kits\\KitSlot.cs",
+              "ViewState": "AgIAAA0AAACA/////38YwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:24:11.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatternStep.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Patterns\\PatternStep.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Patterns\\PatternStep.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Patterns\\PatternStep.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Patterns\\PatternStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:27:06.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pattern.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Patterns\\Pattern.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Patterns\\Pattern.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Patterns\\Pattern.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Patterns\\Pattern.cs",
+              "ViewState": "AgIAACsAAADAzczMzMwbwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:27:25.165Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "BuiltInSoundImporter.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
-              "RelativeDocumentMoniker": "App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
-              "RelativeToolTip": "App.Infrastructure\\Data\\BuiltInSoundImporter.cs",
-              "ViewState": "AgIAAAIAAACANDMzMzMrwC4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T22:11:10.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NaudioEngine.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Audio\\NaudioEngine.cs",
-              "RelativeDocumentMoniker": "App.Infrastructure\\Audio\\NaudioEngine.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Audio\\NaudioEngine.cs",
-              "RelativeToolTip": "App.Infrastructure\\Audio\\NaudioEngine.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwE4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:34:55.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:32:32.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SoundBase.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Sounds\\SoundBase.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Sounds\\SoundBase.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Sounds\\SoundBase.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Sounds\\SoundBase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:20:58.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\AssemblyInfo.cs",
-              "RelativeToolTip": "RhythmMachineUI\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T17:57:57.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IAudioEngine.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Audio\\IAudioEngine.cs",
-              "RelativeDocumentMoniker": "App.Infrastructure\\Audio\\IAudioEngine.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Audio\\IAudioEngine.cs",
-              "RelativeToolTip": "App.Infrastructure\\Audio\\IAudioEngine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:34:39.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RhythmMachineUI.csproj",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\RhythmMachineUI.csproj",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\RhythmMachineUI.csproj",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\RhythmMachineUI.csproj",
-              "RelativeToolTip": "RhythmMachineUI\\RhythmMachineUI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-02T17:51:11.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "UserSound.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Sounds\\UserSound.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Sounds\\UserSound.cs",
               "RelativeDocumentMoniker": "App.Domain\\Entities\\Sounds\\UserSound.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Sounds\\UserSound.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Sounds\\UserSound.cs",
               "RelativeToolTip": "App.Domain\\Entities\\Sounds\\UserSound.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -442,122 +346,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\App.xaml",
-              "RelativeDocumentMoniker": "RhythmMachineUI\\App.xaml",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachineUI\\App.xaml",
-              "RelativeToolTip": "RhythmMachineUI\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-02T17:55:50.322Z",
+              "DocumentIndex": 5,
+              "Title": "BuiltInSound.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Sounds\\BuiltInSound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:21:16.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Kit.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Kits\\Kit.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Kits\\Kit.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Entities\\Kits\\Kit.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Kits\\Kit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "SoundBase.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Sounds\\SoundBase.cs",
+              "RelativeDocumentMoniker": "App.Domain\\Entities\\Sounds\\SoundBase.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\Entities\\Sounds\\SoundBase.cs",
+              "RelativeToolTip": "App.Domain\\Entities\\Sounds\\SoundBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:24:27.856Z"
+              "WhenOpened": "2026-01-02T15:20:58.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "App.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAcAAAAAzczMzIwjwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:32:32.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CsvExporter.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Export\\CsvExporter.cs",
+              "RelativeDocumentMoniker": "App.Infrastructure\\Export\\CsvExporter.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Infrastructure\\Export\\CsvExporter.cs",
+              "RelativeToolTip": "App.Infrastructure\\Export\\CsvExporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:38:23.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\App.xaml",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\App.xaml",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\App.xaml",
+              "RelativeToolTip": "RhythmMachineUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-02T17:55:50.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ComboItemVm.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\ComboItemVm.cs",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\ComboItemVm.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\ComboItemVm.cs",
+              "RelativeToolTip": "RhythmMachineUI\\ComboItemVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T00:53:15.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RhythmMachineUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:28:11.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NameDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\NameDialog.xaml",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\NameDialog.xaml",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\NameDialog.xaml",
+              "RelativeToolTip": "RhythmMachineUI\\NameDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-04T20:07:59.22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "NameDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\NameDialog.xaml.cs",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\NameDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\NameDialog.xaml.cs",
+              "RelativeToolTip": "RhythmMachineUI\\NameDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:09:18.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StepPlayheadBrushConverter.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\StepPlayheadBrushConverter.cs",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\StepPlayheadBrushConverter.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\StepPlayheadBrushConverter.cs",
+              "RelativeToolTip": "RhythmMachineUI\\StepPlayheadBrushConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T04:59:28.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "RhythmMachineUI\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\RhythmMachineUI\\AssemblyInfo.cs",
+              "RelativeToolTip": "RhythmMachineUI\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T17:57:57.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "App.g.cs",
               "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeDocumentMoniker": "App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "..\\RhythmMachine\\App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeToolTip": "App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "..\\RhythmMachine\\App.UI\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "ViewState": "AgIAABsAAAAAAAAAAIBZwDEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T17:03:03.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml",
-              "RelativeDocumentMoniker": "RhythmMachine\\App.xaml",
+              "RelativeDocumentMoniker": "..\\RhythmMachine\\RhythmMachine\\App.xaml",
               "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml",
-              "RelativeToolTip": "RhythmMachine\\App.xaml",
+              "RelativeToolTip": "..\\RhythmMachine\\RhythmMachine\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-02T16:17:15.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "RhythmMachine\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\RhythmMachine\\RhythmMachine\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml.cs",
-              "RelativeToolTip": "RhythmMachine\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\RhythmMachine\\RhythmMachine\\MainWindow.xaml.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T14:49:37.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "App.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj",
               "RelativeDocumentMoniker": "App.Domain\\App.Domain.csproj",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj",
+              "ToolTip": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj",
               "RelativeToolTip": "App.Domain\\App.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-02T15:16:27.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-02T15:16:27.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "RhythmMachine\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\RhythmMachine\\RhythmMachine\\AssemblyInfo.cs",
               "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\AssemblyInfo.cs",
-              "RelativeToolTip": "RhythmMachine\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\RhythmMachine\\RhythmMachine\\AssemblyInfo.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T16:37:19.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "App.g.cs",
               "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeDocumentMoniker": "RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "..\\RhythmMachine\\RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs",
-              "RelativeToolTip": "RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs",
+              "RelativeToolTip": "..\\RhythmMachine\\RhythmMachine\\obj\\Debug\\net8.0-windows\\App.g.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T16:36:14.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml.cs",
-              "RelativeDocumentMoniker": "RhythmMachine\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\RhythmMachine\\RhythmMachine\\App.xaml.cs",
               "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\App.xaml.cs",
-              "RelativeToolTip": "RhythmMachine\\App.xaml.cs",
+              "RelativeToolTip": "..\\RhythmMachine\\RhythmMachine\\App.xaml.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T15:51:08.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "RhythmMachine\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\RhythmMachine\\RhythmMachine\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\RhythmMachine\\MainWindow.xaml",
-              "RelativeToolTip": "RhythmMachine\\MainWindow.xaml",
+              "RelativeToolTip": "..\\RhythmMachine\\RhythmMachine\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-02T14:49:41.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\krasa\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
@@ -565,56 +575,8 @@
               "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\5917cbb70f9b28a245decce13428c9b8b0242b7bced3975c23780bdc4e8c9caa\\XamlReader.cs",
               "ViewState": "AgIAAPQBAAAAAAAAAAAjwP4BAAACAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T16:21:09.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CsvExporter.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Export\\CsvExporter.cs",
-              "RelativeDocumentMoniker": "App.Infrastructure\\Export\\CsvExporter.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Infrastructure\\Export\\CsvExporter.cs",
-              "RelativeToolTip": "App.Infrastructure\\Export\\CsvExporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:38:23.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "App.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\App.Application.csproj",
-              "RelativeDocumentMoniker": "App.Application\\App.Application.csproj",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Application\\App.Application.csproj",
-              "RelativeToolTip": "App.Application\\App.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-02T15:41:17.705Z",
+              "WhenOpened": "2026-01-02T16:21:09.39Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PatternStatus.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Enums\\PatternStatus.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Enums\\PatternStatus.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Enums\\PatternStatus.cs",
-              "RelativeToolTip": "App.Domain\\Enums\\PatternStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:19:06.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TrackRole.cs",
-              "DocumentMoniker": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Enums\\TrackRole.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Enums\\TrackRole.cs",
-              "ToolTip": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\Enums\\TrackRole.cs",
-              "RelativeToolTip": "App.Domain\\Enums\\TrackRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T15:18:25.34Z"
             }
           ]
         }

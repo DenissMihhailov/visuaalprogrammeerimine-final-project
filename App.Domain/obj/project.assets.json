@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj",
       "projectName": "App.Domain",
-      "projectPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\App.Domain.csproj",
+      "projectPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\App.Domain.csproj",
       "packagesPath": "C:\\Users\\krasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krasa\\source\\repos\\RhythmMachine\\App.Domain\\obj\\",
+      "outputPath": "C:\\Users\\krasa\\source\\repos\\visuaalprogrammeerimine-final-project\\App.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\krasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
