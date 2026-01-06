@@ -1,10 +1,11 @@
 SEKVENTSER
 
-Enne esimest käivitamist:
+Enne esimest käivitamist
+
 Rakenduse korrektseks tööks tuleb enne esmakordset käivitamist initsialiseerida andmebaas. Selleks ava projekti kaustas terminal (PowerShell või muu käsurida) ja käivita järgmised käsud:
 
-dotnet ef migrations add UpdateSeedPattern -p App.Infrastructure -s RhythmMachineUI
-dotnet ef database update -p App.Infrastructure -s RhythmMachineUI
+- dotnet ef migrations add UpdateSeedPattern -p App.Infrastructure -s RhythmMachineUI
+- dotnet ef database update -p App.Infrastructure -s RhythmMachineUI
 
 Need käsud loovad või uuendavad vajaliku andmebaasiskeemi ning lisavad algandmed (seed). Ilma selle sammuta ei pruugi rakenduses olla ühtegi mustrit ega heli, mida kasutada.
 
