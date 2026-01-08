@@ -25,6 +25,7 @@ Rakenduse käivitamisel luuakse automaatselt mitu näidis-mustrit ning impordita
 - Patternid: valimine, kustutamine, salvestamine
 - Kitid: valimine, kustutamine, salvestamine
 - BPM valideerimine vahemikus 40–240
+- helitugevuse reguleerimine (võimaldab muuta esituse valjust)
 - CSV eksport aktiivse mustri seisust (“Export CSV”)
   - fail salvestatakse Desktopile nimega <PatternName>.csv
 - kui playback on peatatud, siis sammu muutmine mängib vastava heli
@@ -46,9 +47,10 @@ Aggregate Root’id:
 - Pattern (sisaldab PatternStep-e)
 - Kit (sisaldab KitSlot-e)
 
-Pärilus (TPH – Table Per Hierarchy):
+Pärilus (TPH):
 - SoundBase → BuiltInSound, UserSound
 - EF Core kasutab Discriminator veergu tabelis Sounds.
+- valitud on TPH, kuna see on lihtsam ja jõudluselt sobiv lahendus antud pärilushierarhia jaoks.
 
 Unikaalsus (andmebaasi indeksid):
 - Pattern.Code on unikaalne
