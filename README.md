@@ -1,19 +1,67 @@
-SEKVENTSER
+# SEKVENTSER (Rhythm Machine)
 
-Enne esimest käivitamist
+16-sammuline WPF step-sekventser kiireks rütmide ja biitide visandamiseks. Rakendus on mõeldud lihtsaks ja otseseks kasutamiseks, mustreid saab muuta reaalajas, ilma playback’i peatamata.
 
-Rakenduse korrektseks tööks tuleb enne esmakordset käivitamist initsialiseerida andmebaas. Selleks ava projekti kaustas terminal (PowerShell või muu käsurida) ja käivita järgmised käsud:
+![UI](docs/screenshots/ui.png)
 
-- dotnet ef migrations add UpdateSeedPattern -p App.Infrastructure -s RhythmMachineUI
-- dotnet ef database update -p App.Infrastructure -s RhythmMachineUI
+## Enne esimest käivitamist
 
-Need käsud loovad või uuendavad vajaliku andmebaasiskeemi ning lisavad algandmed (seed). Ilma selle sammuta ei pruugi rakenduses olla ühtegi mustrit ega heli, mida kasutada.
+Enne esmakordset käivitamist tuleb initsialiseerida andmebaas.
 
+Ava projekti juurkaustas terminal ja käivita:
+```bash
+dotnet ef migrations add UpdateSeedPattern -p App.Infrastructure -s RhythmMachineUI
+dotnet ef database update -p App.Infrastructure -s RhythmMachineUI
+```
 
-See on väike step-sekventser, mille ma tegin selleks, et biite ja rütme kiiresti kokku panna. Idee oli teha midagi lihtsat ja otsest, ilma liigse menüüde ja seadistusteta.
+Need käsud loovad SQLite andmebaasi, rakendavad EF Core skeemi ning lisavad algandmed (seed).
 
-Sekventser töötab 16 sammu peal ja seda saab kasutada reaalajas, samal ajal kui rütm mängib, saab samme sisse ja välja lülitada, BPM-i muuta ja helisid vahetada. Kõik reageerib kohe, ilma et peaks playback’i peatama.
+Pärast seda käivita projekt RhythmMachineUI.
+Rakenduse käivitamisel luuakse automaatselt mitu näidis-mustrit ning imporditakse sisseehitatud helid.
 
-Rakenduses on valmis helipakid (kitid), nii et saab kohe alustada ja keskenduda rütmile, mitte soundide otsimisele. Mustreid ja kite saab salvestada ning hiljem uuesti kasutada.
+## Funktsionaalsus
 
-See on mõeldud nii ideede visandamiseks, harjutamiseks kui ka lihtsalt jam’iks, kui tahad midagi kiirelt käima panna ja vaadata, kuhu see viib.
+- 16 sammu reaalajas muutmine (playback’i ajal saab samme sisse ja välja lülitada)
+- Patternid: valimine, kustutamine, salvestamine
+- Kitid: valimine, kustutamine, salvestamine
+- BPM valideerimine vahemikus 40–240
+- CSV eksport aktiivse mustri seisust (“Export CSV”)
+  - fail salvestatakse Desktopile nimega <PatternName>.csv
+- kui playback on peatatud, siis sammu muutmine mängib vastava heli
+- uute helide lisamine: kui paigutada helifailid UI-kihi (Assets/Sounds) kausta, imporditakse need rakenduse käivitamisel automaatselt andmebaasi (vajadusel tuleb migreerimised uuesti luua)
+
+## Kuidas kasutada sammusekvenserit
+
+Sammusekvenser töötab vasakult paremale liikuvate sammudega, kus iga samm määrab, kas heli mängitakse või mitte. Playback’i käivitamisel liigub aktiivne samm üle 16 sammu ning sisse lülitatud sammud mängivad valitud kiti heli. Samme saab sisse ja välja lülitada ka esituse ajal, mis võimaldab rütmi reaalajas muuta. BPM määrab tempo ning pattern’eid ja kit’e saab valida ning salvestada, et luua ja taaskasutada erinevaid rütme.
+
+## Andmemudel 
+
+Projekt on jaotatud DDD kihtideks:
+- RhythmMachineUI – WPF UI, MVVM, Dependency Injection
+- App.Application – rakendusteenused ja use-case’id
+- App.Domain – entiteedid ja domeenireeglid
+- App.Infrastructure – EF Core, migratsioonid, import/eksport
+
+Aggregate Root’id:
+- Pattern (sisaldab PatternStep-e)
+- Kit (sisaldab KitSlot-e)
+
+Pärilus (TPH – Table Per Hierarchy):
+- SoundBase → BuiltInSound, UserSound
+- EF Core kasutab Discriminator veergu tabelis Sounds.
+
+Unikaalsus (andmebaasi indeksid):
+- Pattern.Code on unikaalne
+- Kit.Name on unikaalne
+- KitSlot (KitId, Role) on unikaalne
+- PatternStep (PatternId, Role, StepIndex) on unikaalne
+
+Seed-andmed:
+- andmebaasi luuakse mitu mustrit koos 16-sammulise step
+- andmestikuga, et rakendust saaks kohe kasutada.
+
+## Domeenireeglid 
+
+- BPM peab olema vahemikus 40–240 (Pattern.SetBpm)
+- Locked staatusega mustrit ei saa muuta (Pattern.Toggle, Pattern.SetStatus)
+- Ready staatuse jaoks peab mustris olema vähemalt üks aktiivne samm (Pattern.SetStatus)
